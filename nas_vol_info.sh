@@ -1,4 +1,6 @@
 #!/bin/bash
+# Version 1.0
+
 VOL=$1
 IFS=" " read FS TOTAL USED AVAIL PERC VOLNAME <<< `df -k /$VOL | grep /$VOL`
 PERC=`echo $PERC | sed 's/%//g'`
