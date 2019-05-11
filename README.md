@@ -14,3 +14,7 @@ Total: Total space of your volume in GByte
 Available: Available space in GByte
 Used: Used space in GByte
 Used (%): Used space in percent.
+
+This script will set default values for limits in the Used (%) channel:
+90% for Upper warning limit
+95% for Upper error limit
