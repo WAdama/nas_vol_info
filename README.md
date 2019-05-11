@@ -8,6 +8,8 @@ Be sure you have set correct logon values for SSH in your device.
 
 I personally use "Login via private key" with special user for monitoring which also may use sudo without a password.
 
+![Screenshot1](https://github.com/WAdama/nas_shares_info/blob/master/images/ssh.png)
+
 ### Installing
 
 Place the script to /var/prtg/scriptsxml on your Synology NAS. You have to create this directory structure because PRTG expects the script here.
