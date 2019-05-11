@@ -15,7 +15,7 @@ Place the script to /var/prtg/scriptsxml on your Synology NAS. You have to creat
 In PRTG create under your device which represents your Synology a SSH custom advanced senor.
 
 Choose under "Script" this script and enter under "Parameters" the name of the volume you want to monitor: e.g. volume1.
-[[https://github.com/wadama/nal_vol_info/blob/master/img/nas_vol_info.JPG|alt=nas_vol_info]]
+[[https://github.com/wadama/nal_vol_info/blob/master/nas_vol_info.JPG|alt=nas_vol_info]]
 
 This script will create for channels in this sensor:
 Total: Total space of your volume in GByte
