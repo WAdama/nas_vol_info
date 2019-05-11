@@ -12,7 +12,7 @@ I personally use "Login via private key" with an user especially for monitoring 
 
 ### Installing
 
-Place the script to /var/prtg/scriptsxml on your Synology NAS. You have to create this directory structure because PRTG expects the script here.
+Place the script to /var/prtg/scriptsxml on your Synology NAS and make it executable. (You may have to create this directory structure because PRTG expects the script here.)
 
 ```
 wget https://raw.githubusercontent.com/WAdama/nas_vol_info/master/nas_vol_info.sh
