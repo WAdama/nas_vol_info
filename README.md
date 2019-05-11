@@ -14,6 +14,11 @@ I personally use "Login via private key" with an user especially for monitoring 
 
 Place the script to /var/prtg/scriptsxml on your Synology NAS. You have to create this directory structure because PRTG expects the script here.
 
+```
+wget https://raw.githubusercontent.com/WAdama/nas_vol_info/master/nas_vol_info.sh
+chmod +x nas_vol_info.sh
+```
+
 In PRTG create under your device which represents your Synology a SSH custom advanced senor.
 
 Choose under "Script" this script and enter under "Parameters" the name of the volume you want to monitor: e.g. volume1.
