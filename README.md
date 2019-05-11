@@ -29,3 +29,5 @@ Used (%): Used space in percent.
 This script will set default values for limits in the Used (%) channel:
 90% for Upper warning limit
 95% for Upper error limit
+
+![Screenshot1](https://github.com/WAdama/nas_vol_info/blob/master/images/nas_vol_info_sensor.png)
