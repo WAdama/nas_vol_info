@@ -36,3 +36,5 @@ This script will set default values for limits in the Used (%) channel:
 95% for Upper error limit
 
 ![Screenshot1](https://github.com/WAdama/nas_vol_info/blob/master/images/nas_vol_info_sensor.png)
+
+**HINT:** Since DSM 6.2.2 for SSH access the user has to be member of the local Administrators group on your Synology NAS.
