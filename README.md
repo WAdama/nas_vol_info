@@ -10,6 +10,8 @@ I personally use "Login via private key" with an user especially for monitoring 
 
 ![Screenshot1](https://github.com/WAdama/nas_vol_info/blob/master/images/ssh_settings.png)
 
+**HINT:** Since DSM 6.2.2 for SSH access the user has to be member of the local Administrators group on your Synology NAS.
+
 ### Installing
 
 Place the script to /var/prtg/scriptsxml on your Synology NAS and make it executable. (You may have to create this directory structure because PRTG expects the script here.)
@@ -37,4 +39,4 @@ This script will set default values for limits in the Used (%) channel:
 
 ![Screenshot1](https://github.com/WAdama/nas_vol_info/blob/master/images/nas_vol_info_sensor.png)
 
-**HINT:** Since DSM 6.2.2 for SSH access the user has to be member of the local Administrators group on your Synology NAS.
+
