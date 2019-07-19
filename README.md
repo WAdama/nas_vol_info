@@ -2,6 +2,10 @@
 
 Bash script for PRTG by Paessler to monitor an entire volume on your Synology NAS
 
+nas_vol_info_b.sh is especially for btrfs filesystem as I have learned that **df** deals not correct with some of the quirks of btrfs. This script uses therefore **btrfs filesystem usage** to get the data.
+
+HINT: The value ***Used (%)*** may differ from what DSM tell you. Maybe DSM use also **df**.
+
 ### Prerequisites
 
 Be sure you have set correct logon values for SSH in your device.
@@ -18,6 +22,8 @@ Place the script to /var/prtg/scriptsxml on your Synology NAS and make it execut
 
 ```
 wget https://raw.githubusercontent.com/WAdama/nas_vol_info/master/nas_vol_info.sh
+or
+wget https://raw.githubusercontent.com/WAdama/nas_vol_info/master/nas_vol_info_b.sh
 chmod +x nas_vol_info.sh
 ```
 
