@@ -43,6 +43,10 @@ This script will set default values for limits in the Used (%) channel:
 90% for Upper warning limit
 95% for Upper error limit
 
+Sensor nas_vol_info.sh:
 ![Screenshot1](https://github.com/WAdama/nas_vol_info/blob/master/images/nas_vol_info_sensor.png)
+
+Sensor nas_vol_info_b.sh:
+![Screenshot1](https://github.com/WAdama/nas_vol_info/blob/master/images/nas_vol_info_b_sensor.png)
 
 
