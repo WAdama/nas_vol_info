@@ -4,6 +4,10 @@ Bash script for PRTG by Paessler to monitor an entire volume on your Synology NA
 
 nas_vol_info_b.sh is especially for btrfs filesystem as I have learned that **df** deals not correct with some of the quirks of btrfs. This script uses therefore **btrfs filesystem usage** to get the data.
 
+Sensor has to be created in PRTG on your Synology device.
+
+Sensor tested on DS 918+ with DSM 6.2.4-25556
+
 HINT: The value ***Used (%)*** may differ from what DSM tell you. Maybe DSM use also **df**.
 
 ### Prerequisites
