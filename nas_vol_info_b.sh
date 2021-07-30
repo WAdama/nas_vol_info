@@ -6,7 +6,7 @@
 
 VOL=$1
 USAGE=`btrfs filesystem usage -T -b /$VOL/`
-SIZE=$(echo ""$USAGE"" | grep -F "Device size:" | awk '{match($0,"([0-9]+)",a)}END{print a[1]}')
+SIZE=$(echo "$USAGE" | grep -F "Device size:" | awk '{match($0,"([0-9]+)",a)}END{print a[1]}')
 ALLO=$(echo "$USAGE" | grep -F "Device allocated:" | awk '{match($0,"([0-9]+)",a)}END{print a[1]}')
 UNAL=$(echo "$USAGE" | grep -F "Device unallocated:" | awk '{match($0,"([0-9]+)",a)}END{print a[1]}')
 MISS=$(echo "$USAGE" | grep -F "Device missing:" | awk '{match($0,"([0-9]+)",a)}END{print a[1]}')
