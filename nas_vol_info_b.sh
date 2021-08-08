@@ -1,5 +1,5 @@
 #!/bin/bash
-# Version 1.0
+# Version 1.0.1
 # Inspired by psi-4ward's Icinga-Script, which gave me the hint how to pick the data from the output of 
 # btrfs filesystem usage
 # https://github.com/psi-4ward/check_btrfs_usage
